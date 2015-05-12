@@ -12,7 +12,7 @@
 #    License for the specific language governing permissions and limitations
 #    under the License.
 
-from six.moves import queue as Queue
+import Queue
 import time
 
 from oslo_config import cfg

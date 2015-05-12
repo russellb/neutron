@@ -15,7 +15,7 @@
 #    under the License.
 
 
-from six.moves import http_client as httplib
+import httplib
 
 # Topic for info notifications between the plugin and agent
 INFO = 'info'

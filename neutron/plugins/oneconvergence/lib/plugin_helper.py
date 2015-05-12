@@ -14,7 +14,7 @@
 
 """Library to talk to NVSD controller."""
 
-from six.moves import http_client as httplib
+import httplib
 import time
 
 from oslo_config import cfg

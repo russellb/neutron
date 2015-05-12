@@ -23,7 +23,7 @@ responsible determining whether a command is safe to execute.
 """
 from __future__ import print_function
 
-from six.moves import configparser as ConfigParser
+import ConfigParser
 import json
 import os
 import select
